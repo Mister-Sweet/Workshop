@@ -19,3 +19,312 @@ Logs/AssetImportWorker0.log
 Successfully changed project path to: C:/Users/geert/Documents/GitHub/Workshop/Challenge
 C:/Users/geert/Documents/GitHub/Workshop/Challenge
 Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/geert/Documents/GitHub/Workshop/Challenge/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     8101 MB
+    Driver:   26.20.100.8142
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003225 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1953ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2654ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2131ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (787ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (737ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 6.650600 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.067500 ms MarkObjects: 6.179000 ms  DeleteObjects: 0.117500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/pyramide-skybox/pyramide-skybox-front.png
+  artifactKey: Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-front.png using Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff17a3853c167369ef90acd8e67b7c5') in 0.220012 seconds 
+  Import took 0.224456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/pyramide-skybox
+  artifactKey: Guid(077e0b91cd1071b4398ef69860abe134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox using Guid(077e0b91cd1071b4398ef69860abe134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612bc24a2495d75392839dbac8159785') in 0.012272 seconds 
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-down.png
+  artifactKey: Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-down.png using Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8d17de93da26eb873df330bfebfc26') in 0.026618 seconds 
+  Import took 0.030800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-up.png
+  artifactKey: Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-up.png using Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91606dd8dae97f6b59a3f62a9922d96f') in 0.019178 seconds 
+  Import took 0.024509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-left.png
+  artifactKey: Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-left.png using Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ee073c7e16e340675e78da8ce685e') in 0.034585 seconds 
+  Import took 0.039649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-back.png
+  artifactKey: Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-back.png using Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abfc562a6941161c3df432189443493') in 0.041664 seconds 
+  Import took 0.049210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-right.png
+  artifactKey: Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-right.png using Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2670be627b489f6773b115c818a714d') in 0.016314 seconds 
+  Import took 0.020968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.074742 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-back.png
+  artifactKey: Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-back.png using Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf6d64837ee116ae98519cb2871b11') in 0.018699 seconds 
+  Import took 0.024742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-front.png
+  artifactKey: Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-front.png using Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55e1516733b7797e173d9960ac6c34d') in 0.019336 seconds 
+  Import took 0.029870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-down.png
+  artifactKey: Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-down.png using Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f69ac30279d557468569e48d380420f') in 0.016768 seconds 
+  Import took 0.022396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-up.png
+  artifactKey: Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-up.png using Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e859128d4c1bd59deaa65b69e4bff') in 0.016175 seconds 
+  Import took 0.021588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-left.png
+  artifactKey: Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-left.png using Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a3db4d5ba5ca2403fcce6e6c52fbd') in 0.017100 seconds 
+  Import took 0.023957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/pyramide-skybox/pyramide-skybox-right.png
+  artifactKey: Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/pyramide-skybox-right.png using Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c452cc51d24ebd13fa82e7910abdc6') in 0.018172 seconds 
+  Import took 0.021915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.371929 seconds.
+  path: Assets/pyramide-skybox/skybox.mat
+  artifactKey: Guid(49ed4840e3122114ca1e2a6eb4edc85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/skybox.mat using Guid(49ed4840e3122114ca1e2a6eb4edc85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626046a5c2bea12c530eb07e71f136f3') in 0.140171 seconds 
+  Import took 0.145257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.272653 seconds.
+  path: Assets/pyramide-skybox/front.png
+  artifactKey: Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/front.png using Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72be67f3dad5875dc0c12f4ffe3378b9') in 0.079197 seconds 
+  Import took 0.088423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.669600 seconds.
+  path: Assets/pyramide-skybox/back.png
+  artifactKey: Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/back.png using Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeb8f2d9e53af74b26c3435d3d4af25') in 0.026853 seconds 
+  Import took 0.030970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.771478 seconds.
+  path: Assets/pyramide-skybox/down.png
+  artifactKey: Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/down.png using Guid(dc701f26c085d6d40af195b21ddd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b32c7c6147d82017fd560bc56da29a4') in 0.064998 seconds 
+  Import took 0.070795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.479865 seconds.
+  path: Assets/pyramide-skybox/left.png
+  artifactKey: Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/left.png using Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557109fd2ceaf4b91205098d0566d79a') in 0.022596 seconds 
+  Import took 0.030417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.305244 seconds.
+  path: Assets/pyramide-skybox/right.png
+  artifactKey: Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/right.png using Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32b246b79cd7c3318a663fc991afef0') in 0.031287 seconds 
+  Import took 0.035968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.332454 seconds.
+  path: Assets/pyramide-skybox/up.png
+  artifactKey: Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/up.png using Guid(c8e15778e73adb741ad9eb47b3f3aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e062e078344331ced05ec6c0a690b064') in 0.026752 seconds 
+  Import took 0.039162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 574.939330 seconds.
+  path: Assets/pyramide-skybox/back.png
+  artifactKey: Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/back.png using Guid(a0b1b0b376bfa434b8c46c61aa1d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4420fb19f02d76cd9bda24a1332c6e5') in 0.031089 seconds 
+  Import took 0.040821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/pyramide-skybox/front.png
+  artifactKey: Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/front.png using Guid(6fdd645a05b0bf149b842394c040594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b57f3772539c737fdf96cff7382994') in 0.030140 seconds 
+  Import took 0.035094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/pyramide-skybox/left.png
+  artifactKey: Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/left.png using Guid(bd12ba2845be26a45ba2712437292fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5d74f4b767fe1f5272e64c93d7853c') in 0.024423 seconds 
+  Import took 0.029492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/pyramide-skybox/right.png
+  artifactKey: Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pyramide-skybox/right.png using Guid(540c24c6c62604a4686e4bb9ce991fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fd99370d9869f6918d466d459cdc10') in 0.023173 seconds 
+  Import took 0.027423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 383.120140 seconds.
+  path: Assets/skybox
+  artifactKey: Guid(077e0b91cd1071b4398ef69860abe134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skybox using Guid(077e0b91cd1071b4398ef69860abe134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce5e4c971b37e9cf2eb635a86c01bc') in 0.010554 seconds 
+  Import took 0.016007 seconds .
+
